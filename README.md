@@ -1,2 +1,1 @@
-# docker-base
-base image for all docker images
+Here a base image for all anothers. It's based on an official Debian Stretch (9) image.
