@@ -1,9 +1,4 @@
-FROM debian:stretch
+FROM alpine:3.9
 MAINTAINER igor@gajsin.name
 
-RUN apt update && apt upgrade -y \
-    && apt install -y \
-    apt-transport-https \
-    gnupg2 \
-    wget \
-    && apt clean && rm -rf /apt/cache/archives/*
+RUN apk update
